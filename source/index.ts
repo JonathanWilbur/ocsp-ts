@@ -1,6 +1,1 @@
-export default
-function hello (): string {
-    return "It worked!";
-}
-
-console.log(hello());
+export * as OCSP_2013_08 from "./OCSP-2013-08";
