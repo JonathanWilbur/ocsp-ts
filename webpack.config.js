@@ -6,8 +6,8 @@ module.exports = {
     ],
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: ".min.js",
-        library: "",
+        filename: "ocsp.min.js",
+        library: "ocsp",
         libraryTarget: "var",
     },
     // mode: "development",

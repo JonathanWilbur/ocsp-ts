@@ -9,7 +9,7 @@
             "url": "https://github.com/JonathanWilbur"
         }
     ],
-    "description": "",
+    "description": "Online Certificate Status Protocol (OCSP) in TypeScript",
     "devDependencies": {
         "@babel/core": "^7.10.4",
         "@babel/preset-env": "^7.10.4",
@@ -39,10 +39,17 @@
     "files": [
         "dist/node/**/*"
     ],
-    "keywords": [],
+    "keywords": [
+        "OCSP",
+        "Online",
+        "Certificate",
+        "Status",
+        "Protocol",
+        "TLS"
+    ],
     "license": "MIT",
     "main": "./dist/node/index.js",
-    "name": "",
+    "name": "ocsp-ts",
     "scripts": {
         "benchmark": "node ./test/benchmark.js",
         "breaking-update": "npx ncu -u && npm install",
